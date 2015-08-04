@@ -8,12 +8,27 @@
     #masthead-search-terms,
     #search-btn,
     #upload-btn,
-    .yt-card{
+    .yt-card,
+    .all-comments, .all-comments a,
+    .comments .channel-owner .comment-header .user-name{
         background:#1A1A1A;
-
+    }
+    #yt-masthead-container{
+        border:none;
+    }
+    #yt-masthead-container, .masthead-search-terms-border{
+        box-shadow:none;
+    }
+    .masthead-search-terms-border, #masthead-search .search-btn-component, #masthead-search .search-btn-component .start,
+    .yt-uix-button, .yt-card .yt-uix-button-expander{
+        border-color:#660000;
+        color:green;/*debug*/
     }
     .yt-default h1, .yt-default h2, .yt-default h3, .yt-default h4, .yt-default h5, .yt-default h6, h1.yt, h2.yt, h3.yt, h4.yt, h5.yt, h6.yt,
-    #watch-header .yt-user-info a, #watch-description{
+    #watch-header .yt-user-info a, #watch-description, .masthead-search-terms-border, #masthead-search .search-btn-component, #masthead-search .search-btn-component .start,
+    .yt-uix-button,
+    .all-comments, .all-comments a,
+    .yt-card .yt-uix-button-expander{
         color:#DADADA;
     }
     #action-panel-details a{
