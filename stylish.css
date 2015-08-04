@@ -1,0 +1,46 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("youtube.com") {
+    body{
+        background:#333;
+    }
+    #yt-masthead-container,
+    #masthead-search-terms,
+    #search-btn,
+    #upload-btn,
+    .yt-card{
+        background:#1A1A1A;
+
+    }
+    .yt-default h1, .yt-default h2, .yt-default h3, .yt-default h4, .yt-default h5, .yt-default h6, h1.yt, h2.yt, h3.yt, h4.yt, h5.yt, h6.yt,
+    #watch-header .yt-user-info a, #watch-description{
+        color:#DADADA;
+    }
+    #action-panel-details a{
+        color:#6699FF;
+    }
+    .watch-stage-mode .player-api {
+        width: 100%;
+    }
+    .watch-wide .player-height {
+        height: 683px !important;
+    }
+    .watch-wide .player-width,
+    #movie_player .ytp-chrome-bottom{
+        width: 96.5% !important;
+    }
+    .watch-wide .player-width {
+
+        left:-48.5%;
+    }
+    .html5-video-content, .video-stream.html5-main-video{
+        height:auto !important;
+        width:100% !important;
+    }
+    #watch-appbar-playlist.watch-playlist.player-height{
+        top:323px !important;
+    }
+    .ytp-time-display{
+        font-size:18px;
+    }
+}
