@@ -1,13 +1,23 @@
 @namespace url(http://www.w3.org/1999/xhtml);
  @-moz-document domain("youtube.com") {
-	body {
+	body, .yt-uix-button-default, .yt-uix-button-text {
 		background:#333;
+		color:#DADADA;
 	}
-	#yt-masthead-container, #masthead-search-terms, #search-btn, #upload-btn, .yt-card, .all-comments, .all-comments a, .comments .channel-owner .comment-header .user-name {
+	#yt-masthead-container, #masthead-search-terms, #search-btn, #upload-btn, .yt-card, .all-comments, .all-comments a, .comments .channel-owner .comment-header .user-name, .yt-ui-ellipsis, #masthead-appbar, #appbar-guide-menu, .guide-flyout, body #footer-container {
 		background:#1A1A1A;
 	}
-	#yt-masthead-container {
+	#yt-masthead-container, .guide-pinned .guide-pinning-enabled #appbar-guide-menu {
 		border:none;
+	}
+	#browse-items-primary .item-section > li > .yt-lockup-tile, .branded-page-v2-primary-col .branded-page-box, .section-list li .item-section .branded-page-box, .feed-header, #masthead-appbar, #footer-main {
+		border-bottom-color:#990000;
+	}
+	body #footer-container {
+		border-top-color:#990000;
+	}
+	hr, .guide-section-separator {
+		border-color:#990000;
 	}
 	#yt-masthead-container, .masthead-search-terms-border {
 		box-shadow:none;
@@ -17,8 +27,19 @@
 		color:green;
 		/*debug*/
 	}
-	.yt-default h1, .yt-default h2, .yt-default h3, .yt-default h4, .yt-default h5, .yt-default h6, h1.yt, h2.yt, h3.yt, h4.yt, h5.yt, h6.yt, #watch-header .yt-user-info a, #watch-description, .masthead-search-terms-border, #masthead-search .search-btn-component, #masthead-search .search-btn-component .start, .yt-uix-button, #masthead-search-term, .all-comments, .all-comments a, .yt-card .yt-uix-button-expander {
+	/* 	 standard text */
+	.yt-default h1, .yt-default h2, .yt-default h3, .yt-default h4, .yt-default h5, .yt-default h6, h1.yt, h2.yt, h3.yt, h4.yt, h5.yt, h6.yt, #watch-header .yt-user-info a, #watch-description, .masthead-search-terms-border, #masthead-search .search-btn-component, #masthead-search .search-btn-component .start, .yt-uix-button, #masthead-search-term, .all-comments, .all-comments a, .yt-card .yt-uix-button-expander, .guide-item, .branded-page-related-channels h3 a, .branded-page-module-title a:visited, .branded-page-module-title a, .yt-badge-list, .yt-badge {
 		color:#DADADA;
+	}
+	/* 	 muted text */
+	a.yt-uix-button-epic-nav-item.selected, a.yt-uix-button-epic-nav-item.yt-uix-button-toggled, button.yt-uix-button-epic-nav-item.selected, button.yt-uix-button-epic-nav-item.yt-uix-button-toggled, .epic-nav-item.selected, .epic-nav-item.yt-uix-button-toggled, .epic-nav-item-heading, #footer-links-primary a {
+		color:#9A9A9A;
+	}
+	/* 	 buttons */
+	.yt-uix-button-subscribe-unbranded, .yt-uix-button-subscribe-unbranded[disabled], .yt-uix-button-subscribe-unbranded[disabled]:hover, .yt-uix-button-subscribe-unbranded[disabled]:active, .yt-uix-button-subscribe-unbranded[disabled]:focus, .yt-uix-button-subscribed-branded, .yt-uix-button-subscribed-branded[disabled], .yt-uix-button-subscribed-branded[disabled]:hover, .yt-uix-button-subscribed-branded[disabled]:active, .yt-uix-button-subscribed-branded[disabled]:focus, .yt-uix-button-subscribed-unbranded, .yt-uix-button-subscribed-unbranded[disabled], .yt-uix-button-subscribed-unbranded[disabled]:hover, .yt-uix-button-subscribed-unbranded[disabled]:active, .yt-uix-button-subscribed-unbranded[disabled]:focus {
+		border: 1px solid #CCC;
+		background-color: #333;
+		color: #9A9A9A;
 	}
 	#action-panel-details a {
 		color:#6699FF;
