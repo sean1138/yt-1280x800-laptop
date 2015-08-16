@@ -1,0 +1,85 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+ @-moz-document domain("youtube.com") {
+	body, .yt-uix-button-default, .yt-uix-button-text {
+		background:#333;
+		color:#DADADA;
+	}
+	#yt-masthead-container, #masthead-search-terms, #search-btn, #upload-btn, .yt-card, .all-comments, .all-comments a, .comments .channel-owner .comment-header .user-name, .yt-ui-ellipsis, #masthead-appbar, #appbar-guide-menu, .guide-flyout, body #footer-container {
+		background:#1A1A1A;
+	}
+	#yt-masthead-container, .guide-pinned .guide-pinning-enabled #appbar-guide-menu {
+		border:none;
+	}
+	#browse-items-primary .item-section > li > .yt-lockup-tile, .branded-page-v2-primary-col .branded-page-box, .section-list li .item-section .branded-page-box, .feed-header, #masthead-appbar, #footer-main, .pl-video {
+		border-bottom-color:#990000;
+	}
+	body #footer-container {
+		border-top-color:#990000;
+	}
+	hr, .guide-section-separator {
+		border-color:#990000;
+	}
+	#yt-masthead-container, .masthead-search-terms-border {
+		box-shadow:none;
+	}
+	.masthead-search-terms-border, #masthead-search .search-btn-component, #masthead-search .search-btn-component .start, .yt-uix-button, .yt-card .yt-uix-button-expander {
+		border-color:#660000;
+		color:green;
+		/*debug*/
+	}
+	/* 	 standard text */
+	.yt-default h1, .yt-default h2, .yt-default h3, .yt-default h4, .yt-default h5, .yt-default h6, h1.yt, h2.yt, h3.yt, h4.yt, h5.yt, h6.yt, #watch-header .yt-user-info a, #watch-description, .masthead-search-terms-border, #masthead-search .search-btn-component, #masthead-search .search-btn-component .start, .yt-uix-button, #masthead-search-term, .all-comments, .all-comments a, .yt-card .yt-uix-button-expander, .guide-item, .branded-page-related-channels h3 a, .branded-page-module-title a:visited, .branded-page-module-title a, .yt-badge-list, .yt-badge, #pl-video-table td, #pl-video-table a, .primary-header-contents .view-as-menu .view-as-menu-trigger, #pl-header .pl-header-title {
+		color:#DADADA;
+	}
+	/* 	 muted text */
+	a.yt-uix-button-epic-nav-item.selected, a.yt-uix-button-epic-nav-item.yt-uix-button-toggled, button.yt-uix-button-epic-nav-item.selected, button.yt-uix-button-epic-nav-item.yt-uix-button-toggled, .epic-nav-item.selected, .epic-nav-item.yt-uix-button-toggled, .epic-nav-item-heading, #footer-links-primary a, .video-list .video-list-item .title, .channel-header .branded-page-header-title .branded-page-header-title-link, .share-panel {
+		color:#9A9A9A;
+	}
+	/* 	 buttons */
+	.yt-uix-button-subscribe-unbranded, .yt-uix-button-subscribe-unbranded[disabled], .yt-uix-button-subscribe-unbranded[disabled]:hover, .yt-uix-button-subscribe-unbranded[disabled]:active, .yt-uix-button-subscribe-unbranded[disabled]:focus, .yt-uix-button-subscribed-branded, .yt-uix-button-subscribed-branded[disabled], .yt-uix-button-subscribed-branded[disabled]:hover, .yt-uix-button-subscribed-branded[disabled]:active, .yt-uix-button-subscribed-branded[disabled]:focus, .yt-uix-button-subscribed-unbranded, .yt-uix-button-subscribed-unbranded[disabled], .yt-uix-button-subscribed-unbranded[disabled]:hover, .yt-uix-button-subscribed-unbranded[disabled]:active, .yt-uix-button-subscribed-unbranded[disabled]:focus {
+		border: 1px solid #CCC;
+		background-color: #333;
+		color: #9A9A9A;
+	}
+	.yt-thumb, .yt-uix-button:hover {
+		background-color: #666;
+	}
+	#action-panel-details a {
+		color:#6699FF;
+	}
+	#action-panel-dismiss {
+		background:white;
+	}
+	#action-panel-dismiss:before {
+		content:'close ->';
+		color:red;
+		position:absolute;
+		left:-4em;
+		top:20%;
+		opacity:1;
+		font-size:14px;
+	}
+	.watch-stage-mode .player-api {
+		width: 100%;
+	}
+	.watch-wide .player-height {
+		height: 683px !important;
+	}
+	.watch-wide .player-width, #movie_player .ytp-chrome-bottom {
+		width: 96.5% !important;
+	}
+	.watch-wide .player-width {
+		left:-48.5%;
+	}
+	.html5-video-content, .video-stream.html5-main-video {
+		height:auto !important;
+		width:75%% !important;
+		left:12.5%;
+	}
+	#watch-appbar-playlist.watch-playlist.player-height {
+		top:323px !important;
+	}
+	.ytp-time-display {
+		font-size:18px;
+	}
+}
