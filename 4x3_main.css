@@ -47,9 +47,11 @@
 	#action-panel-details a {
 		color:#6699FF;
 	}
-	#action-panel-dismiss {
-		background:white;
-	}
+	#action-panel-dismiss{
+			background:white;
+			height:28px;
+			width:28px;
+		}
 	#action-panel-dismiss:before {
 		content:'close ->';
 		color:red;
