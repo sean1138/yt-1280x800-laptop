@@ -1,5 +1,6 @@
 @namespace url(http://www.w3.org/1999/xhtml);
  @-moz-document domain("youtube.com") {
+ 	.iv-promo {display:none;}
 	body, .yt-uix-button-default, .yt-uix-button-text {
 		background:#333;
 		color:#DADADA;
